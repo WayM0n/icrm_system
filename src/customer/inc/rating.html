@@ -1,0 +1,87 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                background: linear-gradient(rgb(228, 224, 224),white);
+                background-repeat: no-repeat;
+            }
+            .experience{
+                background: rgb(133,61,61);
+                background: radial-gradient(circle, rgba(133,61,61,1) 0%, rgba(221,13,44,0.9757281553398058) 0%, rgba(249,11,11,0.8435749299719888) 47%, rgba(133,61,61,1) 96%);
+                border: none;
+            }
+            button{
+                border: none;
+                background-color: blue !important;
+                box-shadow: 3px 5px 8px black !important;
+            }
+        </style>
+   </head>
+   <body>
+    <section class=" m-3" >
+        <div class="container mb-4 ">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 ">
+                   <div class="card  shadow-lg border-0 mt-4">
+                        <div class="card-header experience rounded-3">
+                            <h2 class=" text-white card-title fw-bold text-center fs-1">Rate Your Experience With Us</h2>
+                        </div>
+                        <div class="card-body px-4 ">
+                            <form action="" method="post">
+                                    <h5 class="fs-4  " >Are You Satisfied ?</h5>
+                                    <div class="form-check form-check-inline mb-4 ms-4">
+                                        <input class="form-check-input" type="radio" name="exp" id="exp1" value="1" checked>
+                                    <label class="form-check-label" for="exp1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="radio" name="exp" id="exp2" value="0">
+                                        <label class="form-check-label" for="exp2">No</label>
+                                    </div>
+
+                                    <div class="mb-3 mt-1">
+                                        <h5 class="mb-4 fs-4" >How would you rate communication skill of the customer ?</h5>
+                                        <div class="mx-4">
+                                        <input type="range" step="10"  class="form-range ">
+                                        </div>
+                                    </div>
+
+                                    <div class="" >
+                                        <h5 class="fs-4 pb-2">Rate Our Solution</h5>
+                                        <div class="mx-4">
+                                            <select name="sol_rate" id="sol_rate" class="form-select">
+                                                <option disabled selected>Select Here</option>
+                                                <option value="Worst">Worst</option>
+                                                <option value="Worst">Bad</option>
+                                                <option value="Worst">Normal</option>
+                                                <option value="Worst">Good</option>
+                                                <option value="Worst">Very Good</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                        <div class="ms-3 form-group">
+                                            <label for="textarea" class="fs-4 h4 mt-4 mb-4">Any Suggestion ?</label>
+                                            <textarea class="form-control" id="textarea" name="textarea"   rows="3"></textarea>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn btn-primary mt-3 mb-2 px-3  fs-4 rounded-5  border-3" >Submit</button>
+                                        </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+   </body>
+   </html>
