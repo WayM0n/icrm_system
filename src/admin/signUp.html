@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icrm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" media="screen,speeech">
+
+<style>
+   image{
+    width: 50%;
+   }
+   body{
+    background-color: whitesmoke;
+   }
+</style>
+
+</head>
+
+<body >
+
+
+
+<section class="" >
+  <div class="container mt-5 mb-5 ">
+    <div class="row d-flex justify-content-center align-items-center ">
+      <div class="col-lg-6 col-xl-11">
+        <div class="card text-black shadow-lg border-0" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                <p class="text-center ms-5 h1 fw-bold mb-1 mt-0">Sign up</p>
+
+                <form method="post" action="./signUp.php" class="mx-1 mx-md-4">
+
+                  <div class="d-flex flex-row align-items-center mb-2">
+                    <div class="form-outline flex-fill mb-0">
+                    <label for="fname" class="text-secondary mb-1">First Name</label>
+                    <input type="text" name="firstname" class=" form-control " placeholder="First Name *" value="" id="fname"  pattern="[A-Z][a-z]{0,19}" maxlength="20" required >
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-2">
+                    <div class="form-outline flex-fill mb-0">
+                    <label for="flname"class="text-secondary mb-1 ">Last Name</label>
+                    <input type="text" class="form-control " name="lastname" placeholder="Last Name *" value=""id="lname"  pattern="[A-Z][a-z]{0,19}" maxlength="20"  required/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-2">
+                    <div class="form-outline flex-fill mb-0">
+                    <label for="contact"class="text-secondary mb-1">Contact</label>
+                    <input type="text"  maxlength="10" pattern="[0-9]{10}" name="contact" class="form-control" id="contact" placeholder="Phone *" value="" required/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-2">
+                    <div class="form-outline flex-fill mb-0">
+                    <label for="email"class="text-secondary mb-1">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email *" value="" required/>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-3">
+                   <div class="form-outline flex-fill mb-0">
+                    <label for="fname"class="text-secondary mb-1">Password</label>
+                    <input type="password" class="form-control mb-2" name="cpassword" placeholder="Password *"value="" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$" required/>
+                    </div>
+                  </div>
+
+
+                  <div class="form-check d-flex justify-content-center mb-1">
+                    <input class="form-check-input me-2 mb-2" type="checkbox" value="" id="form2Example3c" />
+                    <label class="form-check-label" for="form2Example3">
+                      I agree all statements in <a href="#!">Terms of service</a>
+                    </label>
+                  </div>
+
+                  <div class="d-flex justify-content-center  ">
+                    <button class="form-control btn btn-primary mt-2  p-2 rounded-3  shadow-lg " type="submit" name="register_submit_button">Create Account</button>
+                  </div>
+
+                  <p class="text-dark text-center  fw-bold">Have an account ? <a href="./logina.php" class="text-decoration-none  fw-bold text-danger ">Log In</a></p>
+
+                </form>
+
+              </div>
+              <div class="col-md-10 border-0 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                <img src="./assets/img/draw1.png"
+                  class="img-fluid" alt="Sample image">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

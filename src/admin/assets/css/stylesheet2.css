@@ -1,0 +1,126 @@
+.card-header{
+    background: white !important;
+    border: none !important;
+}
+.bg-label-primary{
+    color:blueviolet;
+    background-color: rgba(214, 171, 255, 0.963);
+}
+.bg-label-blue{
+    color:rgb(43, 86, 226);
+    background-color: rgb(156, 176, 255);
+}
+.bg-label-red{
+    color:rgb(255, 61, 61);
+    background-color: rgba(255, 171, 171, 0.963);
+}
+.bg-label-yellow{
+    color:rgb(231, 163, 53);
+    background-color: rgba(255, 245, 169, 0.963);
+}
+.bg-label-green{
+    color:rgb(48, 174, 80);
+    background-color: rgba(181, 255, 195, 0.963);
+}
+.bg-label-grey{
+    color:rgb(49, 49, 49);
+    background-color: rgba(191, 191, 191, 0.963);
+}
+.bg-label-black{
+    color:rgb(255, 255, 255);
+    background-color: rgba(50, 50, 50, 0.963);
+}
+.plans-list>li{
+    padding:8px;
+    border-radius:10px;
+    transition:all 0.4s;
+}
+.plans-list>li:hover,.plans-list:focus{
+    transform:scale(1.02);
+    background:linear-gradient(30deg,rgb(222, 222, 222),rgb(200, 200, 200),rgb(222, 222, 222));
+}
+.bg-yellow{
+    padding: 1px;;
+    background: rgb(255, 255, 89);
+}
+.states-icons{
+    font-style: oblique !important;
+    font-size: 13px !important;
+}
+#main-card,#main-card-2,#main-card-3{
+    transition:  all 0.6s !important;
+    /* animation: cardBg 2.5s ease-in infinite forwards !important; */
+}
+#main-card:hover,#main-card-2:hover,#main-card-3:hover{
+    transform: translateY(-5px);
+}
+#main-card{
+    background: linear-gradient(45deg, #b59fea, transparent) !important;
+}
+#main-card-2{
+    background: linear-gradient(45deg, #9fe9ea, transparent) !important;
+}
+#main-card-3{
+    background: linear-gradient(45deg, #86aee7, transparent) !important;
+}
+
+.userImg{
+    width: 50px;
+    height: 50px;
+}
+.dropdown{
+    cursor: pointer !important;
+}
+/* @keyframes cardBg {
+    0%{
+        background: linear-gradient(45deg, #b59fea, transparent) !important;
+        opacity: 1;
+    }
+    50%{
+        background: linear-gradient(45deg, transparent, #7f48ff,#b59fea) !important;
+        opacity: 1;
+    }
+    100%{
+        background: linear-gradient(45deg, #b59fea, transparent) !important;
+        opacity: 1;
+    }
+} */
+#user-card-primary{
+    background: linear-gradient(45deg, #418dff, transparent) !important;
+    color: white !important;
+}
+#user-card-info{
+    background: linear-gradient(45deg, #a341ff, transparent) !important;
+    color: white !important;
+}
+#user-card-green{
+    background: linear-gradient(45deg, #2bf54c, transparent) !important;
+    color: white !important;
+}
+#user-card-light{
+    background: linear-gradient(45deg, #2bb5f5, transparent) !important;
+    color: white !important;
+}
+
+#main-card,#main-card-2,#main-card-3{
+    opacity: 0;
+    animation: appearOnLoad 2s ease-in-out 0s 1 forwards !important;
+}
+#main-card-2{
+    animation-delay: 1.5s !important;
+}
+#main-card-3{
+    animation-delay: 2.5s !important;
+}
+@keyframes appearOnLoad {
+    0%{
+        opacity:0;
+    }
+    100%{
+        /* transform:translateX(); */
+        opacity: 1;
+    }
+}
+#covered1,#covered2,.covered{
+    height: 500px !important;
+}
