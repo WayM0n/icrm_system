@@ -40,7 +40,10 @@ We welcome contributions from the community. If you'd like to contribute to this
 ## Snapshots
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/77374c06-e634-452a-ae0d-a24feea5b740)
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/681d1897-bf28-4c07-baa8-3d31131d9100)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/275b9ea1-1fcb-46d1-84a3-936556aa9dd1)
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/0e74c286-9c62-4e7e-9f52-654a53d80b6f)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/ad001636-8813-4b1e-a38c-92192c1c81d1)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/22ddab58-c72b-44a5-b042-c26f76e8a837)
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/71300fb7-a52f-4652-b1e7-5905a3c4bd03)
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/1a75925a-e81b-434e-9898-db16d7873418)
 ![image](https://github.com/WayM0n/icrm_system/assets/89734047/2ae6b6fd-2e86-4dde-92fa-c1d5e522880e)
