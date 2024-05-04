@@ -35,4 +35,30 @@ We welcome contributions from the community. If you'd like to contribute to this
 ### Contributors
 
 - Gaurav Sharma [(https://github.com/WayM0n))](https://github.com/WayM0n/)
-- Monika [(https://github.com/friendsusername)](https://github.com/Monika-522)
+- Monika [(https://github.com/friendsusername)](https://github.com/Monika-522
+
+## Snapshots
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/77374c06-e634-452a-ae0d-a24feea5b740)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/681d1897-bf28-4c07-baa8-3d31131d9100)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/0e74c286-9c62-4e7e-9f52-654a53d80b6f)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/71300fb7-a52f-4652-b1e7-5905a3c4bd03)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/1a75925a-e81b-434e-9898-db16d7873418)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/2ae6b6fd-2e86-4dde-92fa-c1d5e522880e)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/9a6bac04-8128-46a1-9634-f9af6ecd3dac)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/49799e0c-74a4-4fc2-9d08-4b57b20076be)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/28bd2413-72d8-4736-9a5a-06ade16fe67c)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/df033513-4c8d-4aa0-a8da-2462f58761a4)
+![image](https://github.com/WayM0n/icrm_system/assets/89734047/4092b7bc-53fb-4814-b0b3-c0a0161f9c53)
+
+
+
+
+
+
+
+
+
+
+
+
+
